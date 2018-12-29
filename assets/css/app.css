@@ -1,0 +1,134 @@
+body {
+    background-color: lightgray;
+}
+
+
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+
+/* HEADER PRINCIPAL */
+
+/*header {
+	background: rgba(0,0,0,0.9);
+    width: 100%;
+	position: fixed;
+	z-index: 100;
+	font-family: PT Serif;
+}*/
+
+header nav {
+	background-color: #6e938b;
+	color: #f1eedb;
+	font-size: 1.25rem;
+	font-family: PT Serif;
+}
+
+header nav a {
+	color: #363a39;
+}
+
+header nav a:hover {
+	color: #dcd197;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+header nav button {
+	background-color: #dcd19d;
+	color: #6c6963;
+	padding-left: 100px;
+}
+
+header nav button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+/*header nav button:hover {
+	background-color: transparent;
+	color: #6c6963;
+}*/
+
+
+/*img {
+	padding-top: 90px;
+	width: 100%;
+}*/
+
+
+/* BODY PRINCIPAL */
+
+div.fondoimagen {
+	background-image: url(https://i.pinimg.com/736x/19/62/cb/1962cbc05ac837fb33b75e6556bb5df2--glass-building-the-building.jpg);
+	background-size: cover;
+	color: #f2f1f0;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-family: PT Serif;
+	/*font-weight: 600px;*/
+	text-align: center;
+	padding-top: 275px;
+	padding-bottom: 90px;
+}
+
+#servicios {
+	margin: 25px 25px 25px 25px;
+	min-height: 100px;
+	border-radius: 0.8px 0.8px 0.8px 0.8px;
+}
+
+.card {
+	min-height: 100px;
+	border-radius: 0.8px;
+	border-color: #6e938b;
+}
+
+.card:hover {
+	min-height: 100px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+
+
+/*form {
+	padding-left: 400px;
+}*/
+
+form .btn-success {
+	background-color: #4c87c9; 
+	outline: none;
+}
+
+form .btn-success:hover {
+	background-color: #bae2fc; 
+}
+
+body {
+	font-family: PT Serif;
+	font-size: 1.1rem;
+}
+
+body h3,h1 {
+	/*text-shadow: black 0.1em 0.1em;*/
+	color: #6e938b;
+}
+
+/* FOOTER PRINCIPAL */
+
+footer {
+	background-color: #6e938b;
+}
+
+footer h5 {
+	color: #363a39;
+	font-size: 1.25rem;
+	font-family: PT Serif;
+}
+
+table table {
+	font-size: smaller;
+}
+
+li.borderless {
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
